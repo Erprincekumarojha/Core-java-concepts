@@ -1,0 +1,180 @@
+
+Java :
+         1.Java is very simple,high-level,secured ,multithreaded,platform independent,object orented programming
+		    language, it was developed by james Gosling in sun-Microsystem in 1990's for developing 
+			Internet Application.
+         2.The first version is released in janwary 23, 1996.
+		 3.It is descendent of c/c++ programming language. it syntex is similar to the c and c++ language.
+		 4.so, in java we cannot see the most horrible topic such as pointers,structure,union,operator overloading,
+		    multiple inheritance and many more.
+
+
+ Java Features:
+                      1.Simple                         2.Object oriented
+					  3.secure							4.Multithread
+					  5.Rubost							6.High performance
+					  7.Portable						8.Distributed
+					  9.Architecture neutral      10.Dynamic
+
+
+  What is the abbrevation of java:
+                       
+					     1.There is no Abbrevation in java.
+						 2.it means that what is the fullform of java
+						 3. there is no any full form of java language.
+
+Class :
+           1.A class is a user define data type.
+           2.A class--the basic building block of an object-oriented language such as Java--is a
+		        template and  blue print that describes the data and behavior associated with instances of that class.
+           3.When you instantiate a class you create an object that looks and feels like other instances
+		        of the same class.
+           4.A class is combination of Data members and member function
+ 
+                 For Example:-Bike,Car,Dog,BankAccount,Student,College. its a only RWO name.
+
+Object :
+            1.Object is a Real world things,entity which can see,watch and using is called object .
+			2.Any real-world living and non-living thing is called object
+			3.The instance of a class is nothing but object.
+			4.Object having a property and behaviers to store in the class.
+                  
+				   For example:-Bike(Bike number,color,model). its having only property is called the object
+
+Instance :
+              1.An instance is a single, unique memory allocation of a class that represents that object 
+			     physically with specific values.
+               
+			         For example:- Bike(123,"pulser 180", "Red") . its having a actual values is called Instance.
+
+Variable	:
+             1.Variable is a named memory location used to store data temporarily. During programm execution
+			     we can modify that data.
+			 2.A variable can be create by using Datatype. As we have two types of datatypes .
+			 3. We can create two types of variable.
+
+                                  1).Primitive variable. ex-int,char,boolean,short,float,long,byte,double.
+								  2).Referenced variable. ex-Array,String, UserDefine class 
+								 
+
+Method:
+            1.Method is a sub block of class that is used for implementing logic of an object's operation.
+
+    Rule:-Logic must be placed only inside a method, not directily at class level. if you placed logic class level
+                   compiler through error.
+            2.So, at class level we are allow to place only variable and method creation statements.
+			3.The logical statement such as method calls,variable ,calculation, and data printing related statement
+			    must be placed in side a method, becouse these statement are considered as logic.
+           
+                                                             OOP Concepts
+=================================================================================
+                      1.Encapsulation
+					  2.Inheritance
+					  3.polymorphism
+					   
+Encapsulation :
+                   1.The process of creating a class by binding variables and method as one unit
+				       and than operating  variable only through these methods is called encapsulation.
+				   2.By developing encapsulation we are hiding data from direct access from another class, methods and 
+				       providing it's access only through publicly accessible setter and getter methods  with proper validation
+					   is called encapsulation.
+
+
+
+How can we develop encapsulation in java ?
+    :-In java ,we developed encapsulation
+	  1. By declearing all variables as private.
+	  2. By defining one pair of public setter and getter method.
+
+Inheritance:
+                  1.The process of creating new object by obtaining type,properties & behaviours of an existing object is called
+				      inheritance.
+                  2. Through inheritance we can reuse the existing object properties and behaviors with our new object reference
+				       as if  they were defining in our object class.
+				  3. It is the one of the most important features of object oriented programming. it is the concept that is used 
+				      for reusability and changeability purpose.
+				
+Advantage of inheritance:
+                  Through inheritance we can we will  get_mainly two benifits thay are:
+				  1.Reusability.
+				  2.Runtime polymorphism(or dynamic binding).
+             
+
+How inheritance can be implemented in java:
+                Inheritance can be implemented in java using below two keywords.
+				  1.extends:- "is used for developing inheritance between two classes or two interfaces."
+				  2.implements:-"is used for developing inheritance between interface ,class."
+				
+					
+When should we develop inheritance:
+                 1.When we find new object with the same properties and behaviours of an existing class ,we can must develop
+				     inheritance between these two objects. So that new object will be treated as an existing object type.
+                  
+UP CASTING :
+                   1.Storing sub class object ref variable in super Class Reference variable is called UpCasting.
+				   2.
+
+				     
+                  Ex- Person p=new Student(); 
+                
+      Need:-To achive dynamic binding b/w sub class to super class
+      
+            
+     
+DOWN CASTING:
+						1.Reading sub class object reference from super class ref varaible and converting it's type 
+						    from super class type to it's on type by using cast operator is called Down Casting.
+						
+                            
+                      Ex- Student s=(student);     
+
+                      
+      Need: To achiving /retriving sub class object access than down casting.
+     
+Used of super keyword:
+       
+	         1.The super is a java keyword which is used to access super class variables, methods and constructers
+			     from sub class members. it has two syntaxes are
+			       A. super();
+				   B. super;
+			  
+-->super() is used to call the super class constructers from sub class constructers only. 
+
+-->super is used to call super class variables and methods from subclass members.
+
+
+
+Used of this keyword:
+   
+               1.It is a keyword used to store current object reference.
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
